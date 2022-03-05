@@ -1,0 +1,5 @@
+EADDRINUSE, Address already in use.
+
+lsof -i tcp:5000
+
+kill -9 <PID>

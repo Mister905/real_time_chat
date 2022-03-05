@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-function Chat() {
+function Chat(props) {
+  console.log(props);
   return (
     <div>Chat</div>
   )
